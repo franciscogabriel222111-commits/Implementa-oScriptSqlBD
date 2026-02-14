@@ -28,7 +28,9 @@ def main():
         elif opcao == '3':
             id_a = input("ID do aluno para editar: ")
             novo_nome = input("Novo nome: ")
-            dao.atualizar(id_a, novo_nome)
+            novo_email = input("Novo email: ")
+            novo_senha = input("Nova senha: ")
+            dao.atualizar(id_a, novo_nome, novo_email, novo_senha)
 
         elif opcao == '4':
             id_a = input("ID do aluno para deletar: ")
