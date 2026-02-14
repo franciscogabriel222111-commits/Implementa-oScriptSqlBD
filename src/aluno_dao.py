@@ -50,6 +50,7 @@ class AlunoDAO:
     def relatorio_matriculas(self):
         conn = criar_conexao()
         cursor = conn.cursor()
+        # Junta as tabelas Aluno e Matricula. Conta quantos cursos cada um tem.
         sql = """
         SELECT a.nome, COUNT(m.id_curso) as total_cursos
         FROM ALUNO a

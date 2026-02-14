@@ -1,10 +1,10 @@
 # Sistema de Cursos Online - Plataforma EAD
-[cite_start]**Disciplina:** Banco de Dados I - 2025.2 [cite: 107]
-[cite_start]**Professor:** João Paulo [cite: 109]
-[cite_start]**Equipe:** Francisco Gabriel, Ivo da Silva, Marcos Henrique e Ray William [cite: 113, 114, 115, 116]
+- **Disciplina:** Banco de Dados I - 2025.2
+- **Professor:** João Paulo.
+- **Equipe:** Francisco Gabriel, Ivo da Silva, Marcos Henrique e Ray William [cite: 113, 114, 115, 116]
 
 ## 🚀 Sobre o Projeto
-[cite_start]Este sistema gerencia o conteúdo educacional e a experiência de aprendizado, organizando a oferta de cursos e acompanhando o progresso dos alunos. [cite: 120]
+- Este sistema gerencia o conteúdo educacional e a experiência de aprendizado, organizando a oferta de cursos e acompanhando o progresso dos alunos.
 
 ## 🛠️ Requisitos da 3ª Entrega Implementados
 - **Script SQL:** Localizado em `/sql/bd_cursos.sql`.
