@@ -24,15 +24,15 @@ class AlunoDAO:
         return alunos
 
     # U - UPDATE
-    def atualizar(self, id_aluno, novo_nome):
+    def atualizar(self, id_aluno, novo_nome, novo_email, novo_senha):
         conn = criar_conexao()
         cursor = conn.cursor()
-        sql = "UPDATE ALUNO SET nome = %s WHERE id_aluno = %s"
-        cursor.execute(sql, (novo_nome, id_aluno))
+        sql = "UPDATE ALUNO SET nome = %s, email = %s, senha = %s WHERE id_aluno = %s"
+        cursor.execute(sql, (novo_nome, novo_email, novo_senha, id_aluno))
         conn.commit()
         cursor.close()
         conn.close()
-        print("Aluno atualizado!")
+        print("Aluno atualizado com sucesso!")
 
     # D - DELETE
     def deletar(self, id_aluno):
