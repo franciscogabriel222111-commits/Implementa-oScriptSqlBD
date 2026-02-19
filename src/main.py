@@ -9,7 +9,7 @@ def main():
         print("2. Listar Alunos")
         print("3. Atualizar Aluno")
         print("4. Deletar Aluno")
-        print("5. Relatório (Requisito JOIN/GROUP BY)")
+        print("5. Relatório de Matriculas")
         print("0. Sair")
         
         opcao = input("Escolha: ")

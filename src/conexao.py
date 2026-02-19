@@ -3,13 +3,13 @@ import psycopg2
 def criar_conexao():
     try:
         
-        conn = psycopg2.connect(
+        conectar = psycopg2.connect(
             host="localhost",
             database="bd_cursos",
             user="postgres",
             password="shottz"
         )
-        return conn
+        return conectar
     except Exception as e:
         print(f"Erro ao conectar: {e}")
         return None
